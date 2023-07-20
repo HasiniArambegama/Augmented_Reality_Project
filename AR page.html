@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- include A-Frame obviously -->
+        <script src="https://aframe.io/releases/0.7.1/aframe.min.js"></script>
+        <!-- include ar.js for A-Frame -->
+        <script src="https://jeromeetienne.github.io/AR.js/aframe/build/aframe-ar.js"></script>
+    </head>
+    <body style='margin : 0px; overflow: hidden;'>
+        <a-scene embedded arjs>
+
+            <!--Member 1 -IT20076184-->
+            <a-assets>
+                <a-asset-item id="a-robot-obj" src="robot_v1_a\a_robot_v1.obj"></a-asset-item>
+            </a-assets>
+
+            <a-marker type="pattern" url="robot_v1_a\pattern-marker-a_robot_v1.patt">
+                <a-entity obj-model="obj: #a-robot-obj;" material="src: robot_v1_a\a_robot_v1_diffuse.jpg" position="0 0 0" rotation="-90 0 0" scale="0.2 0.2 0.2"> </a-entity>
+                <a-text value="\n\n\nRobot Version 01" height="10" width="10" style="border-left: 0cap;" align="center" color="white" rotation="-90 0 0" position="0 0 1"></a-text>
+            </a-marker>
+
+            
+            <!--Member 2 -IT20069940-->
+            <a-assets>
+                <a-asset-item id="m-rob-obj" src="robot_v2_m\m-rob-object.obj"></a-asset-item>
+            </a-assets>
+
+            <a-marker type="pattern" url="robot_v2_m\pattern-m-rob.patt">
+                <a-entity obj-model="obj: #m-rob-obj;" material="src: robot_v2_m\m-rob-texture.png" position="0 0 0" rotation="0 0 0" scale="1 1 1"> </a-entity>
+                <a-text value="\n\n\nRobot version 2" height="6" width="6" height="6" align="center" color="white" rotation="-90 0 0" position="0 0 1"></a-text>
+            </a-marker>
+
+
+            <!--Member 3 -IT20225674-->
+            <a-assets>
+                <a-asset-item id="h-robotv3-obj" src="robot_v3_h\h-robot-v3.obj"></a-asset-item>
+                <!--<a-sound src="Epic-Trailer.mp3" autoplay="true" position="-150 0 0"></a-sound>-->
+            </a-assets>
+            <a-marker type="pattern" url="robot_v3_h\pattern-h-robot-v3.patt">
+                <a-entity obj-model="obj: #h-robotv3-obj;" material="src: robot_v3_h\h-robot_v3.jpg" position="0 0 0" rotation="-90 0 0" scale="0.2 0.2 0.2"></a-entity>
+                <a-text value= "\n\n\n\n\n\n Robot Version 3 " height="8" width="8" align="center" color="white" rotation="-90 0 0" position="0 0 0" > </a-text>
+            </a-marker>
+
+
+            <!--Member 4 -IT19778754-->
+            <a-assets>
+                <a-asset-item id="s-rob-obj" src="robot_v4_s\s-robot-obj.obj"></a-asset-item>
+            </a-assets>
+
+            <a-marker type="pattern" url="robot_v4_s\pattern-s-marker.patt">
+                <a-entity obj-model="obj: #s-rob-obj;" material="src: robot_v4_s\robot_graphic_a_diffuse.jpg" position="0 0 0" rotation="-90 0 0" scale="0.2 0.2 0.2"> </a-entity>
+                <a-text value="\n\n\nRobot version 4" height="6" width="6" height="6" align="center" color="white" rotation="-90 0 0" position="0 0 1"></a-text>
+            </a-marker>
+
+            <a-entity camera></a-entity>
+        </a-scene>
+    </body>
+</html>
