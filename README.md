@@ -9,7 +9,7 @@ The Robotics Exhibition Gallery - Augmented Reality project is an exciting and i
 
 - Visual Studio Code Integration: The development of this project is made seamless with the use of Visual Studio Code. Developers can easily collaborate, write, and debug their AR code efficiently, enabling a smooth and enjoyable coding experience.
 
-- Gallery Display: The Robotics Exhibition Gallery serves as the canvas for showcasing an array of virtual robotic creations. Visitors can navigate through the gallery, interacting with the virtual robots, and learning about their functionalities and design.
+- Gallery Display: The robotics exhibit gallery serves as 3D objects to display a series of virtual robot designs. Gallery viewers can navigate through the gallery and see 3D images of virtual robots.
 
 ## Getting Started
 To get started with the Robotics Exhibition Gallery - Augmented Reality project, follow these steps:
