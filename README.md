@@ -16,6 +16,9 @@ To get started with the Robotics Exhibition Gallery - Augmented Reality project,
 
 01. Clone the repository to your local machine using the following command:
     ```git clone https://github.com/HasiniArambegama/Augmented_Reality_Project.git```
+
+02. Install the required dependencies and tools, as specified in the project documentation.
+03. Launch Visual Studio Code and open the project folder to start exploring the codebase and making modifications.
    
 
  
