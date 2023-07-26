@@ -17,4 +17,9 @@ To get started with the Robotics Exhibition Gallery - Augmented Reality project,
 01. Clone the repository to your local machine using the following command:
     ![alt text](https://https://github.com/HasiniArambegama/Augmented_Reality_Project.git")
 
+    ```javascript
+var s = "JavaScript syntax highlighting";
+alert(s);
+```
+
  
